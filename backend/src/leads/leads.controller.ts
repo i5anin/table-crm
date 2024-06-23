@@ -1,16 +1,22 @@
-import { Controller, Get, Post } from '@nestjs/common';
+import { Controller, Get, Post, Body, Query } from '@nestjs/common';
+import { AmoCRMService } from './amo-crm.service';
+import { CreateLeadDto } from './dto/create-lead.dto';
 
 @Controller('api/leads')
 export class LeadsController {
+  constructor(private readonly amoCRMService: AmoCRMService) {}
+
   @Get()
-  findAll() {
-    // логика для обработки GET запроса
-    return 'This action returns all leads';
+  async findAll(@Query('query') query: string) {
+    if (query && query.length >= 3) {
+      return this.amoCRMService.findLeadsByQuery(query);
+    } else {
+      return this.amoCRMService.findAllLeads();
+    }
   }
 
   @Post()
-  create() {
-    // логика для обработки POST запроса
-    return 'This action adds a new lead';
+  async create(@Body() createLeadDto: CreateLeadDto) {
+    return this.amoCRMService.createLead(createLeadDto);
   }
 }
