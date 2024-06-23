@@ -13,6 +13,7 @@ describe('LeadsController', () => {
   });
 
   it('should return "This action returns all leads" on GET request', () => {
+    // @ts-expect-error
     expect(controller.findAll()).toBe('This action returns all leads');
   });
 
