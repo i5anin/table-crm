@@ -1,11 +1,43 @@
-import { Controller, Get, Post } from '@nestjs/common';
+// leads.controller.ts
+import { Controller, Get, Post, Query } from '@nestjs/common';
+import { AmoCRMService } from './amo-crm.service';
 
 @Controller('api/leads')
 export class LeadsController {
+  constructor(private readonly amoCRMService: AmoCRMService) {}
+
   @Get()
-  findAll() {
-    // логика для обработки GET запроса
-    return 'This action returns all leads';
+  async findAll(@Query('query') query: string) {
+    const leads = await this.amoCRMService.findAllLeads(query);
+    return leads.map((lead) => ({
+      id: lead.id,
+      name: lead.name,
+      price: lead.price,
+      responsibleUserId: lead.responsible_user_id,
+      statusId: lead.status_id,
+      pipelineId: lead.pipeline_id,
+      createdAt: lead.created_at,
+      updatedAt: lead.updated_at,
+      closedAt: lead.closed_at,
+      closestTaskAt: lead.closest_task_at,
+      isDeleted: lead.is_deleted,
+      customFieldsValues: lead.custom_fields_values,
+      score: lead.score,
+      accountId: lead.account_id,
+      laborCost: lead.labor_cost,
+      tags: lead._embedded.tags.map((tag) => tag.name), // Извлекаем имена тегов
+      companies: lead._embedded.companies.map((company) => ({
+        id: company.id,
+        name: company.name,
+        // ... другие поля компании
+        // Например:
+        //  address: company.address,
+        //  phone: company.phone,
+        //  email: company.email,
+        //  website: company.website,
+        //  // ...
+      })), // Извлекаем информацию о компаниях
+    }));
   }
 
   @Post()
@@ -13,4 +45,22 @@ export class LeadsController {
     // логика для обработки POST запроса
     return 'This action adds a new lead';
   }
+}
+
+// create-lead.dto.ts
+import { IsString, IsOptional } from 'class-validator';
+
+export class CreateLeadDto {
+  @IsString()
+  name: string;
+
+  @IsString()
+  @IsOptional()
+  phone?: string;
+
+  @IsString()
+  @IsOptional()
+  email?: string;
+
+  // ... другие поля для создания сделки
 }
