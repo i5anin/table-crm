@@ -1,20 +1,30 @@
-// amo-crm.service.ts
-import { Injectable } from '@nestjs/common';
-import AmoCRM from 'amocrm'; // Импорт по умолчанию
+import { Injectable, Inject } from '@nestjs/common';
+// Использование импорта * as AmoCRM для импортирования всего содержимого пакета
+import { ConfigService } from '@nestjs/config';
+import AmoCRM from 'amocrm-api'; // Если AmoCRM - дефолтный экспорт
 
 @Injectable()
 export class AmoCRMService {
-  private readonly amo: AmoCRM;
+  private readonly amo: AmoCRM; // Использование типа AmoCRM для amo
 
-  constructor() {
+  constructor(
+    @Inject(ConfigService)
+    private readonly configService: ConfigService,
+  ) {
     this.amo = new AmoCRM({
-      clientId: process.env.AMOCRM_CLIENT_ID,
-      clientSecret: process.env.AMOCRM_CLIENT_SECRET,
-      redirectUri: process.env.AMOCRM_REDIRECT_URI,
+      clientId: this.configService.get<string>('AMOCRM_CLIENT_ID'),
+      clientSecret: this.configService.get<string>('AMOCRM_CLIENT_SECRET'),
+      redirectUri: this.configService.get<string>('AMOCRM_REDIRECT_URI'),
     });
   }
-  async findAllLeads(query: string = null) {
-    // Логика для получения всех сделок
-    return await this.amo.api.deals.get({ query });
+
+  async findAllLeads(query: string = '') {
+    try {
+      const result = await this.amo.api.deals.get({ query });
+      return result;
+    } catch (error) {
+      console.error('Ошибка при получении сделок из AMOCRM', error);
+      throw error;
+    }
   }
 }
