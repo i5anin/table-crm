@@ -1,8 +1,6 @@
-import { Controller, Get, Post, Query, Body } from '@nestjs/common';
-// импортируем Body
-
+// leads.controller.ts
+import { Controller, Get, Post, Query } from '@nestjs/common';
 import { AmoCRMService } from './amo-crm.service';
-import { CreateLeadDto } from './create-lead.dto';
 
 @Controller('api/leads')
 export class LeadsController {
@@ -62,9 +60,8 @@ export class LeadsController {
   }
 
   @Post()
-  async create(@Body() createLeadDto: CreateLeadDto) {
-    // Логика для создания новой сделки
-    const lead = await this.amoCRMService.createLead(createLeadDto);
-    return lead;
+  create() {
+    // логика для обработки POST запроса
+    return 'This action adds a new lead';
   }
 }
