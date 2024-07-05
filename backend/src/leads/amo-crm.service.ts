@@ -11,11 +11,7 @@ export class AmoCRMService {
     @Inject(ConfigService)
     private readonly configService: ConfigService,
   ) {
-    this.amo = new AmoCRM({
-      clientId: this.configService.get<string>('AMOCRM_CLIENT_ID'),
-      clientSecret: this.configService.get<string>('AMOCRM_CLIENT_SECRET'),
-      redirectUri: this.configService.get<string>('AMOCRM_REDIRECT_URI'),
-    });
+    this.amo = new AmoCRM(this.configService.get<string>('AMOCRM_BASE_URL'));
   }
 
   async findAllLeads(query: string = '') {
