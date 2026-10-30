@@ -1,0 +1,1402 @@
+{
+  "schemaVersion": 1,
+  "snapshot": "2026-10-30T14:47:11.360Z",
+  "project": "table-crm",
+  "root": ".",
+  "method": "static-local-index",
+  "limitations": [
+    "Нет динамических вызовов и сетевых интеграций",
+    "Сверять sha256 и evidence.line с текущими исходниками",
+    "Наличие зависимости не доказывает работоспособность"
+  ],
+  "nodes": [
+    {
+      "id": "project:table-crm",
+      "type": "project",
+      "name": "table-crm"
+    },
+    {
+      "id": "project:table-crm/file:README.md",
+      "type": "file",
+      "path": "README.md",
+      "sha256": "5c5f2da82ad87af063993cec6ce67196b7432b7307f139830acf703359afae7f",
+      "bytes": 6916
+    },
+    {
+      "id": "project:table-crm/file:backend/.eslintrc.js",
+      "type": "file",
+      "path": "backend/.eslintrc.js",
+      "sha256": "38272720f4961ed28d233b9d8ab67d0199b60a08901a9a94ae97dd95efe72c09",
+      "bytes": 663
+    },
+    {
+      "id": "project:table-crm/file:backend/README.md",
+      "type": "file",
+      "path": "backend/README.md",
+      "sha256": "9a77594143cdd059b544c76dbf23b06a432258af86cc2ea078dfebf514e5c187",
+      "bytes": 3406
+    },
+    {
+      "id": "project:table-crm/file:backend/package.json",
+      "type": "file",
+      "path": "backend/package.json",
+      "sha256": "40826318ca4fa82725ba19e49112d3b6539340844043ccf652ccb662dfbdf736",
+      "bytes": 2093
+    },
+    {
+      "id": "project:table-crm/file:backend/s.md",
+      "type": "file",
+      "path": "backend/s.md"
+    },
+    {
+      "id": "project:table-crm/file:backend/src/app.controller.spec.ts",
+      "type": "file",
+      "path": "backend/src/app.controller.spec.ts",
+      "sha256": "88faf5523fd7f5dae5a6c78be2dd1709eb6c20ee82c64fc399f8a2e8fb767527",
+      "bytes": 617
+    },
+    {
+      "id": "project:table-crm/file:backend/src/app.controller.ts",
+      "type": "file",
+      "path": "backend/src/app.controller.ts",
+      "sha256": "260f889b9e2b69f77be1155348eb345166aec664b3efff6720053c6844a41f28",
+      "bytes": 274
+    },
+    {
+      "id": "project:table-crm/file:backend/src/app.module.ts",
+      "type": "file",
+      "path": "backend/src/app.module.ts",
+      "sha256": "6f7eea1d91e45fac70baab36a88bd3075989dc5a5d1188fb0aadbeba0d616da8",
+      "bytes": 376
+    },
+    {
+      "id": "project:table-crm/file:backend/src/app.service.ts",
+      "type": "file",
+      "path": "backend/src/app.service.ts",
+      "sha256": "eaf8514ce110fa428a93a27408df4d06d133dbd9ed0a775c315ddfdd507853a9",
+      "bytes": 142
+    },
+    {
+      "id": "project:table-crm/file:backend/src/leads.controller.spec.ts",
+      "type": "file",
+      "path": "backend/src/leads.controller.spec.ts",
+      "sha256": "5f80676984e389c77f157cd8728098b49d3401504da3f88c2360d131fb5d6acf",
+      "bytes": 485
+    },
+    {
+      "id": "project:table-crm/file:backend/src/leads.controller.ts",
+      "type": "file",
+      "path": "backend/src/leads.controller.ts",
+      "sha256": "eb65812199cf19e023f3500b0fd69ec15c793df34f9231a08e84ae6932baea0c",
+      "bytes": 99
+    },
+    {
+      "id": "project:table-crm/file:backend/src/leads/amo-crm.service.ts",
+      "type": "file",
+      "path": "backend/src/leads/amo-crm.service.ts",
+      "sha256": "a6b0d6db79e566eacd33192fbf1df8144de13cb7d6b523faf51fd6efda2608bd",
+      "bytes": 955
+    },
+    {
+      "id": "project:table-crm/file:backend/src/leads/create-lead.dto.ts",
+      "type": "file",
+      "path": "backend/src/leads/create-lead.dto.ts",
+      "sha256": "e2c6786996184107b607fe0f080a52d707403398cf6b7878b637a947b5bf57a5",
+      "bytes": 285
+    },
+    {
+      "id": "project:table-crm/file:backend/src/leads/leads.controller.spec.ts",
+      "type": "file",
+      "path": "backend/src/leads/leads.controller.spec.ts",
+      "sha256": "1affb78d60cce3a8009e34d2fef5fa6cac5ce15d7bdf55a4e54fc0753dd9c571",
+      "bytes": 738
+    },
+    {
+      "id": "project:table-crm/file:backend/src/leads/leads.controller.ts",
+      "type": "file",
+      "path": "backend/src/leads/leads.controller.ts",
+      "sha256": "26d2df6cc19d4aeaa4eb4ecbaaa1913f3ebb5e642719a274c700e704109d17f1",
+      "bytes": 2119
+    },
+    {
+      "id": "project:table-crm/file:backend/src/leads/leads.module.ts",
+      "type": "file",
+      "path": "backend/src/leads/leads.module.ts",
+      "sha256": "cee37e162b30ea103a4809514ab133b3db7364f0f3bba28ae5e7830407e06063",
+      "bytes": 337
+    },
+    {
+      "id": "project:table-crm/file:backend/src/main.ts",
+      "type": "file",
+      "path": "backend/src/main.ts",
+      "sha256": "2cf4458894178f361d964f98c89efa09bcae614e6ab98231c78d4316137e0722",
+      "bytes": 296
+    },
+    {
+      "id": "project:table-crm/file:backend/test/app.e2e-spec.ts",
+      "type": "file",
+      "path": "backend/test/app.e2e-spec.ts",
+      "sha256": "a02dfdc143eeec47c36db06fcb91c36ba1c8c9377c720b831a86ddc2701fcf8d",
+      "bytes": 630
+    },
+    {
+      "id": "project:table-crm/file:doc/README.md",
+      "type": "file",
+      "path": "doc/README.md",
+      "sha256": "5c5f2da82ad87af063993cec6ce67196b7432b7307f139830acf703359afae7f",
+      "bytes": 6916
+    },
+    {
+      "id": "project:table-crm/file:doc/config.js",
+      "type": "file",
+      "path": "doc/config.js",
+      "sha256": "a183e3fee0257bb978375f7f54732037c74aedc55772fc4e4ccce6a6a7d8db33",
+      "bytes": 1944
+    },
+    {
+      "id": "project:table-crm/file:doc/fileStats.js",
+      "type": "file",
+      "path": "doc/fileStats.js",
+      "sha256": "a7a16ad3c93d0e8d0e66a98678213ab59647ae1c26d91f9b43fa3ffeba1092ba",
+      "bytes": 675
+    },
+    {
+      "id": "project:table-crm/file:doc/generate-readme.js",
+      "type": "file",
+      "path": "doc/generate-readme.js",
+      "sha256": "437859624ea582848d08f75d82dc7a07f9782982d31506cba43b5c8a11b91d5e",
+      "bytes": 3103
+    },
+    {
+      "id": "project:table-crm/file:doc/paths.js",
+      "type": "file",
+      "path": "doc/paths.js",
+      "sha256": "fba0cb7e521535a368cff6447e0baca9a2fa705bcbf0864f228980c1e37cb1ca",
+      "bytes": 408
+    },
+    {
+      "id": "project:table-crm/file:doc/projectConfig.js",
+      "type": "file",
+      "path": "doc/projectConfig.js",
+      "sha256": "6b6d88b0950e4394204aeb90497b31c535bd0a789aab29b2a1aed6a472604d94",
+      "bytes": 644
+    },
+    {
+      "id": "project:table-crm/file:doc/treeBuilder.js",
+      "type": "file",
+      "path": "doc/treeBuilder.js",
+      "sha256": "aaa294c60a52ba8603b93a0b4df4ed08a5c6abea1a82d386fa454aa8d9d9215d",
+      "bytes": 3657
+    },
+    {
+      "id": "project:table-crm/file:frontend/README.md",
+      "type": "file",
+      "path": "frontend/README.md",
+      "sha256": "77160bfb369145068056d8a31b99c8373c38a0f16086f7b07eec97cab2b77058",
+      "bytes": 320
+    },
+    {
+      "id": "project:table-crm/file:frontend/babel.config.js",
+      "type": "file",
+      "path": "frontend/babel.config.js",
+      "sha256": "3e9eacd9013b5c4ce3a71e8d1d84fbb78ebe79a68855a6de54d3a16670bbf8e0",
+      "bytes": 73
+    },
+    {
+      "id": "project:table-crm/file:frontend/package.json",
+      "type": "file",
+      "path": "frontend/package.json",
+      "sha256": "9c7c69548e05703fd5f207f0d11060306755c91ab3fd11f66780e1a113299647",
+      "bytes": 916
+    },
+    {
+      "id": "project:table-crm/file:frontend/src/App.vue",
+      "type": "file",
+      "path": "frontend/src/App.vue",
+      "sha256": "7f52e551f5b5a3943f84c3eadd0fe55ab4ee316e1137dffa9b7364759d042cc6",
+      "bytes": 486
+    },
+    {
+      "id": "project:table-crm/file:frontend/src/components/HelloWorld.vue",
+      "type": "file",
+      "path": "frontend/src/components/HelloWorld.vue",
+      "sha256": "f48e2165fd16b94bf30693cd8ddd51b682ef8ce853e89c18ead47e7abf84e2c4",
+      "bytes": 2697
+    },
+    {
+      "id": "project:table-crm/file:frontend/src/main.js",
+      "type": "file",
+      "path": "frontend/src/main.js",
+      "sha256": "a4f721fd608d7d07bd4d1f6f21175f59123b705713244655da7736114a3523a1",
+      "bytes": 255
+    },
+    {
+      "id": "project:table-crm/file:frontend/vue.config.js",
+      "type": "file",
+      "path": "frontend/vue.config.js",
+      "sha256": "19fbfdacde4b4e4278dc051247d11cf1d51937c47374f229e202fc9b15693331",
+      "bytes": 118
+    },
+    {
+      "id": "package:npm:@nestjs/common",
+      "type": "package",
+      "name": "@nestjs/common",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@nestjs/config",
+      "type": "package",
+      "name": "@nestjs/config",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@nestjs/core",
+      "type": "package",
+      "name": "@nestjs/core",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@nestjs/platform-express",
+      "type": "package",
+      "name": "@nestjs/platform-express",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:amocrm-api",
+      "type": "package",
+      "name": "amocrm-api",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:class-validator",
+      "type": "package",
+      "name": "class-validator",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:csv-parser",
+      "type": "package",
+      "name": "csv-parser",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:dotenv",
+      "type": "package",
+      "name": "dotenv",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:reflect-metadata",
+      "type": "package",
+      "name": "reflect-metadata",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:rxjs",
+      "type": "package",
+      "name": "rxjs",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@nestjs/cli",
+      "type": "package",
+      "name": "@nestjs/cli",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@nestjs/schematics",
+      "type": "package",
+      "name": "@nestjs/schematics",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@nestjs/testing",
+      "type": "package",
+      "name": "@nestjs/testing",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@types/express",
+      "type": "package",
+      "name": "@types/express",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@types/jest",
+      "type": "package",
+      "name": "@types/jest",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@types/node",
+      "type": "package",
+      "name": "@types/node",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@types/supertest",
+      "type": "package",
+      "name": "@types/supertest",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@typescript-eslint/eslint-plugin",
+      "type": "package",
+      "name": "@typescript-eslint/eslint-plugin",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@typescript-eslint/parser",
+      "type": "package",
+      "name": "@typescript-eslint/parser",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint",
+      "type": "package",
+      "name": "eslint",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-config-prettier",
+      "type": "package",
+      "name": "eslint-config-prettier",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-plugin-prettier",
+      "type": "package",
+      "name": "eslint-plugin-prettier",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:jest",
+      "type": "package",
+      "name": "jest",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:prettier",
+      "type": "package",
+      "name": "prettier",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:source-map-support",
+      "type": "package",
+      "name": "source-map-support",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:supertest",
+      "type": "package",
+      "name": "supertest",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:ts-jest",
+      "type": "package",
+      "name": "ts-jest",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:ts-loader",
+      "type": "package",
+      "name": "ts-loader",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:ts-node",
+      "type": "package",
+      "name": "ts-node",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:tsconfig-paths",
+      "type": "package",
+      "name": "tsconfig-paths",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:typescript",
+      "type": "package",
+      "name": "typescript",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:ant-design-vue",
+      "type": "package",
+      "name": "ant-design-vue",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:core-js",
+      "type": "package",
+      "name": "core-js",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vue",
+      "type": "package",
+      "name": "vue",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@babel/core",
+      "type": "package",
+      "name": "@babel/core",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@babel/eslint-parser",
+      "type": "package",
+      "name": "@babel/eslint-parser",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@vue/cli-plugin-babel",
+      "type": "package",
+      "name": "@vue/cli-plugin-babel",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@vue/cli-plugin-eslint",
+      "type": "package",
+      "name": "@vue/cli-plugin-eslint",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@vue/cli-service",
+      "type": "package",
+      "name": "@vue/cli-service",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-plugin-vue",
+      "type": "package",
+      "name": "eslint-plugin-vue",
+      "ecosystem": "npm"
+    }
+  ],
+  "edges": [
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:README.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "README.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:backend/.eslintrc.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "backend/.eslintrc.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:backend/README.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "backend/README.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:backend/package.json",
+      "relation": "contains",
+      "evidence": {
+        "path": "backend/package.json"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:backend/s.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "backend/s.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:backend/src/app.controller.spec.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "backend/src/app.controller.spec.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:backend/src/app.controller.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "backend/src/app.controller.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:backend/src/app.module.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "backend/src/app.module.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:backend/src/app.service.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "backend/src/app.service.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:backend/src/leads.controller.spec.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "backend/src/leads.controller.spec.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:backend/src/leads.controller.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "backend/src/leads.controller.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:backend/src/leads/amo-crm.service.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "backend/src/leads/amo-crm.service.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:backend/src/leads/create-lead.dto.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "backend/src/leads/create-lead.dto.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:backend/src/leads/leads.controller.spec.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "backend/src/leads/leads.controller.spec.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:backend/src/leads/leads.controller.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "backend/src/leads/leads.controller.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:backend/src/leads/leads.module.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "backend/src/leads/leads.module.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:backend/src/main.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "backend/src/main.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:backend/test/app.e2e-spec.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "backend/test/app.e2e-spec.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:doc/README.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "doc/README.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:doc/config.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "doc/config.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:doc/fileStats.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "doc/fileStats.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:doc/generate-readme.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "doc/generate-readme.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:doc/paths.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "doc/paths.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:doc/projectConfig.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "doc/projectConfig.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:doc/treeBuilder.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "doc/treeBuilder.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:frontend/README.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "frontend/README.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:frontend/babel.config.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "frontend/babel.config.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:frontend/package.json",
+      "relation": "contains",
+      "evidence": {
+        "path": "frontend/package.json"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:frontend/src/App.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "frontend/src/App.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:frontend/src/components/HelloWorld.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "frontend/src/components/HelloWorld.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:frontend/src/main.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "frontend/src/main.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm",
+      "target": "project:table-crm/file:frontend/vue.config.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "frontend/vue.config.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:table-crm/file:doc/generate-readme.js",
+      "target": "project:table-crm/file:doc/paths.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "doc/generate-readme.js",
+        "line": 4
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:table-crm/file:doc/generate-readme.js",
+      "target": "project:table-crm/file:doc/treeBuilder.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "doc/generate-readme.js",
+        "line": 5
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:table-crm/file:doc/generate-readme.js",
+      "target": "project:table-crm/file:doc/fileStats.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "doc/generate-readme.js",
+        "line": 6
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:table-crm/file:doc/generate-readme.js",
+      "target": "project:table-crm/file:doc/projectConfig.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "doc/generate-readme.js",
+        "line": 7
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:table-crm/file:doc/treeBuilder.js",
+      "target": "project:table-crm/file:doc/config.js",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "doc/treeBuilder.js",
+        "line": 9
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:table-crm/file:backend/src/app.controller.spec.ts",
+      "target": "project:table-crm/file:backend/src/app.controller.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "backend/src/app.controller.spec.ts",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:table-crm/file:backend/src/app.controller.spec.ts",
+      "target": "project:table-crm/file:backend/src/app.service.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "backend/src/app.controller.spec.ts",
+        "line": 3
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:table-crm/file:backend/src/app.controller.ts",
+      "target": "project:table-crm/file:backend/src/app.service.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "backend/src/app.controller.ts",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:table-crm/file:backend/src/app.module.ts",
+      "target": "project:table-crm/file:backend/src/leads/leads.module.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "backend/src/app.module.ts",
+        "line": 3
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:table-crm/file:backend/src/leads.controller.spec.ts",
+      "target": "project:table-crm/file:backend/src/leads.controller.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "backend/src/leads.controller.spec.ts",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:table-crm/file:backend/src/main.ts",
+      "target": "project:table-crm/file:backend/src/app.module.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "backend/src/main.ts",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:table-crm/file:backend/test/app.e2e-spec.ts",
+      "target": "project:table-crm/file:backend/src/app.module.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "backend/test/app.e2e-spec.ts",
+        "line": 4
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:table-crm/file:frontend/src/App.vue",
+      "target": "project:table-crm/file:frontend/src/components/HelloWorld.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "frontend/src/App.vue",
+        "line": 7
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:table-crm/file:frontend/src/main.js",
+      "target": "project:table-crm/file:frontend/src/App.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "frontend/src/main.js",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:table-crm/file:backend/src/leads/leads.controller.spec.ts",
+      "target": "project:table-crm/file:backend/src/leads/leads.controller.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "backend/src/leads/leads.controller.spec.ts",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:table-crm/file:backend/src/leads/leads.controller.ts",
+      "target": "project:table-crm/file:backend/src/leads/amo-crm.service.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "backend/src/leads/leads.controller.ts",
+        "line": 3
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:table-crm/file:backend/src/leads/leads.module.ts",
+      "target": "project:table-crm/file:backend/src/leads/leads.controller.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "backend/src/leads/leads.module.ts",
+        "line": 3
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:table-crm/file:backend/src/leads/leads.module.ts",
+      "target": "project:table-crm/file:backend/src/leads/amo-crm.service.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "backend/src/leads/leads.module.ts",
+        "line": 4
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:@nestjs/common",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 23
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:@nestjs/config",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 24
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:@nestjs/core",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 25
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:@nestjs/platform-express",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 26
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:amocrm-api",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 27
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:class-validator",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 28
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:csv-parser",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 29
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:dotenv",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 30
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:reflect-metadata",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 31
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:rxjs",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 32
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:@nestjs/cli",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 35
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:@nestjs/schematics",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 36
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:@nestjs/testing",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 37
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:@types/express",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 38
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:@types/jest",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 39
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:@types/node",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 40
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:@types/supertest",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 41
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:@typescript-eslint/eslint-plugin",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 42
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:@typescript-eslint/parser",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 43
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:eslint",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 44
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:eslint-config-prettier",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 45
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:eslint-plugin-prettier",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 46
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:jest",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 16
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:prettier",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 48
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:source-map-support",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 49
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:supertest",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 50
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:ts-jest",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 51
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:ts-loader",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 52
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:ts-node",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 53
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:tsconfig-paths",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 54
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:backend/package.json",
+      "target": "package:npm:typescript",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "backend/package.json",
+        "line": 55
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:frontend/package.json",
+      "target": "package:npm:ant-design-vue",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "frontend/package.json",
+        "line": 11
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:frontend/package.json",
+      "target": "package:npm:core-js",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "frontend/package.json",
+        "line": 12
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:frontend/package.json",
+      "target": "package:npm:vue",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "frontend/package.json",
+        "line": 13
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:frontend/package.json",
+      "target": "package:npm:@babel/core",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "frontend/package.json",
+        "line": 16
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:frontend/package.json",
+      "target": "package:npm:@babel/eslint-parser",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "frontend/package.json",
+        "line": 17
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:frontend/package.json",
+      "target": "package:npm:@vue/cli-plugin-babel",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "frontend/package.json",
+        "line": 18
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:frontend/package.json",
+      "target": "package:npm:@vue/cli-plugin-eslint",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "frontend/package.json",
+        "line": 19
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:frontend/package.json",
+      "target": "package:npm:@vue/cli-service",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "frontend/package.json",
+        "line": 20
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:frontend/package.json",
+      "target": "package:npm:eslint",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "frontend/package.json",
+        "line": 21
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:table-crm/file:frontend/package.json",
+      "target": "package:npm:eslint-plugin-vue",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "frontend/package.json",
+        "line": 22
+      },
+      "method": "manifest"
+    }
+  ]
+}
